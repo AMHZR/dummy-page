@@ -1,167 +1,191 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-
-Name       : Garden Of Orchids  
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20101115
-
--->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Garden Of Orchids   by Free CSS Templates</title>
-<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-<script type="text/javascript" src="jquery/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="jquery/jquery.gallerax-0.2.js"></script>
-<style type="text/css">
-@import "gallery.css";
-</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Christmas Red - Homepage</title>
+<meta name="keywords" content="Christmas Red, css template, 5 pages, full-site template" />
+<meta name="description" content="Christmas Red | Homepage - free CSS template provided by templatemo.com" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/ddsmoothmenu.js">
+
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2.1-core.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2-more.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/slideitmoo-1.1.js"></script>
+<script language="javascript" type="text/javascript">
+	window.addEvents({
+		'domready': function(){
+			/* thumbnails example , div containers */
+			new SlideItMoo({
+						overallContainer: 'SlideItMoo_outer',
+						elementScrolled: 'SlideItMoo_inner',
+						thumbsContainer: 'SlideItMoo_items',		
+						itemsVisible: 3,
+						elemsSlide: 2,
+						duration: 200,
+						itemsSelector: '.SlideItMoo_element',
+						itemWidth: 280,
+						showControls:1});
+		},
+		
+	});
+</script>
+    
 </head>
-<body>
-<div id="wrapper">
-	<div id="header">
-		<div id="logo">
-			<h1><a href="#">Garden Of Orchids </a></h1>
-			<p> design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>
-		</div>
-	</div>
-	<!-- end #header -->
-	<div id="menu">
-		<ul>
-			<li class="current_page_item"><a href="#">Home</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Photos</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Links</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</div>
-	<!-- end #menu -->
-	<div id="page">
-		<div id="page-bgtop">
-			<div id="page-bgbtm">
-				<div id="content">
-					<div id="gallery-wrapper">
-						<div id="gallery"> <img class="output" src="images/img04.jpg" alt="" />
-							<div id="thumbnail-bg">
-								<ul class="thumbnails">
-									<li><img class="active" src="images/img04.jpg" title="Monument Valley" alt="" width="604" height="375" onmouseover="this.style.opacity=1;this.filters.alpha.opacity=100"
-onmouseout="this.style.opacity=0.4;this.filters.alpha.opacity=70" /></li>
-									<li><img src="images/img05.jpg" title="Honey Bee" alt="" width="100" height="75"  onmouseover="this.style.opacity=1;this.filters.alpha.opacity=100"
-onmouseout="this.style.opacity=0.4;this.filters.alpha.opacity=70" /></li>
-									<li><img src="images/img06.jpg" title="Cup of Coffee" alt="" width="100" height="75"  onmouseover="this.style.opacity=1;this.filters.alpha.opacity=100"
-onmouseout="this.style.opacity=0.4;this.filters.alpha.opacity=70" /></li>
-									<li><img src="images/img07.jpg" title="Grand Tetons" alt="" width="100" height="75"  onmouseover="this.style.opacity=1;this.filters.alpha.opacity=100"
-onmouseout="this.style.opacity=0.4;this.filters.alpha.opacity=70" /></li>
-								</ul>
-							</div>
-							<br class="clear" />
-						</div>
-						<script type="text/javascript">
+<body id="home">
 
-						$('#gallery').gallerax({
-							outputSelector: 		'.output',					// Output selector
-							thumbnailsSelector:		'.thumbnails li img',		// Thumbnails selector
-							captionSelector:		'.caption'					// Caption selector
-						});
+<div id="templatemo_outer_wrapper">
+	<div id="templatemo_wrapper">
+    
+    	<div id="templatemo_header">
+            <div id="site_title"><h1><a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a></h1></div>
+            <div id="templatemo_menu" class="ddsmoothmenu">
+                <ul>
+                    <li><a href="index.html" class="selected"><span></span>Home</a></li>
+                    <li><a href="about.html"><span></span>About</a>
+                      	<ul>
+                        	<li><a href="subpage.html">Item One</a></li>
+                        	<li><a href="subpage.html">Item Two</a></li>
+                        	<li><a href="subpage.html">Item Three</a></li>
+                    	</ul>
+                    </li>
+                    <li><a href="portfolio.html"><span></span>Portfolio</a>
+                      	<ul>
+                            <li><a href="subpage.html">Page One</a></li>
+                            <li><a href="subpage.html">Page Two</a></li>
+                            <li><a href="subpage.html">Page Three</a></li>
+                            <li><a href="subpage.html">Page Four</a></li>
+                            <li><a href="subpage.html">Page Five</a></li>
+                        </ul>
+                    </li>
+                  	<li><a href="blog.html"><span></span>Blog</a></li>
+                    <li><a href="contact.html"><span></span>Contact</a></li>
+                </ul>
+                <br style="clear: left" />
+            </div> <!-- end of templatemo_menu -->
+            <div class="cleaner"></div>
+            
+		</div> <!-- end of templatemo header -->
+        
+        <div id="intro_text"><img src="images/templatemo_mc.png" alt="Merry Christmas" /></div>
+        
+        <div id="templatemo_middle">
+        	
+            <div id="SlideItMoo_outer">	
+                <div id="SlideItMoo_inner">			
+                    <div id="SlideItMoo_items">
+                        <div class="SlideItMoo_element">
+                                <a href="http://www.templatemo.com/page/1" target="_parent">
+                                <img src="images/gallery/01.jpg" alt="css template" /></a>
+                        </div>	
+                        <div class="SlideItMoo_element">
+                                <a href="http://www.templatemo.com/page/2" target="_parent">
+                                <img src="images/gallery/04.jpg" alt="html page" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="http://www.templatemo.com/page/3" target="_parent">
+                                 <img src="images/gallery/03.jpg" alt="web template" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="http://www.templatemo.com/page/4" target="_parent">
+                                <img src="images/gallery/02.jpg" alt="media template" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="http://www.templatemo.com/page/5" target="_parent">
+                               <img src="images/gallery/05.jpg" alt="website template" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="http://www.templatemo.com/page/6" target="_parent">
+                                <img src="images/gallery/06.jpg" alt="html css template" /></a>
+                        </div>
+                    </div>			
+                </div>
+			</div>        
+      	</div> <!-- end of templatemo_middle -->
+        
+        <div id="templatemo_main">
+        
+          <div class="content_box">
+            <div class="col_allw300 fp_service_box">
+                <h3>Web Templates</h3>
+                <img src="images/tick-48px.png" alt="image" />
+                <p>Vivamus leo velit, convallis id, ultrices sit amet, tempor a, libero. Curabitur vitae enim risus.</p>
+              <a class="more" href="#">Detail</a>
+            </div>
+            <div class="col_allw300 fp_service_box">
+                <h3>Online Marketing</h3>
+                <img src="images/post-it-48px.png" alt="image" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum felis, consectetur non.</p>
+                <a class="more" href="#">Detail</a>
+            </div>
+            <div class="col_allw300 fp_service_box col_last">
+                <h3>Optimizations</h3>
+                <img src="images/rosette-48px.png" alt="image" />
+                <p>Curabitur sed lectus id erat viverra consectetur nec in sapien. Etiam vitae tortor mi.</p>
+                <a class="more" href="#">Detail</a>
+            </div>
+            <div class="cleaner"></div>
+            </div>
+            
+          <div class="content_box content_box_last">
+            <div class="col_w600 float_l">
+                
+                <h2>Welcome To Christmas Red</h2>
+          <div class="image_wrapper image_fl"><span></span>
+                	<img src="images/templatemo_image_01.png" alt="image" />
+				</div>
+              	<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum rhoncus pharetra. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow">XHTML</a> &amp; <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a>.</em></p>
+                <p align="justify"><a href="http://www.templatemo.com" target="_parent">templatemo.com</a> provides high quality <a href="http://www.templatemo.com" target="_parent">free css templates</a> for your personal or business projects. Credits go to <a href="http://www.vectorvaco.com" target="_blank">Free Vectors</a> for vectors, <a href="http://www.brushking.eu/250a/christmas-brushes.html" target="_blank">Edelihu</a> for brush and <a href="http://www.photovaco.com" target="_blank">Free Photos</a> for photos used in this template. Quisque in diam a justo condimentum molestie. Vivamus a velit.Vivamus leo velit, convallis id, ultrices sit amet, tempor a, libero. </p>	
+                
+            </div>
+            <div class="col_w300 float_r">
+            
+                <h3>Testimonial</h3>
+                <blockquote>
+                <p align="justify">Fusce nec felis id lacus sollicitudin vulputate. Proin tincidunt, arcu id pellentesque accumsan, neque dolor imperdiet ligula, quis viverra tellus nulla a odio. Curabitur vitae enim risus, at placerat turpis.</p>
+                <cite><a href="#">Richard</a> - <span>Web Developer</span></cite>
+                </blockquote>
+            
+            </div>  
+            <div class="cleaner"></div>   
+            </div>
+            
+        </div>
+    
+    </div> <!-- end of templatemo_wrapper -->
+</div> <!-- end of templatemo_outer_wrapper -->
 
-					</script>
-						<!-- end -->
-					</div>
-					<div class="post">
-						<h2 class="title"><a href="#">Welcome to Garden Of Orchids </a></h2>
-						<p class="meta"><span class="date">September 10, 2009</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-							<p>This is <strong>Garden Of Orchids </strong>, a free, fully standards-compliant CSS template designed by FreeCssTemplates<a href="http://www.nodethirtythree.com/"></a> for <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.  The slideshow uses photos from <a href="http://www.pdphoto.org">PDPhoto.org</a> and is powered by Gallerax (a jQuery plugin by <a href="http://www.nodethirtythree.com/">NodeThirtyThree</a>). This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions</a> license, so you’re pretty much free to do whatever you want with it  (even use it commercially) provided you keep the links in the footer  intact. Aside from that, have fun with it :)</p>
-							<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum ipsum. Proin imperdiet est. Phasellus dapibus semper urna. Pellentesque ornare, orci in felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem.</p>
-							<p class="links"><a href="#">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Comments</a></p>
-						</div>
-					</div>
-					<div class="post">
-						<h2 class="title"><a href="#">Lorem ipsum sed aliquam</a></h2>
-						<p class="meta"><span class="date">September 10, 2009</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
-						<div style="clear: both;">&nbsp;</div>
-						<div class="entry">
-							<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est. Phasellus <a href="#">dapibus semper urna</a>. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem.  Mauris quam enim, molestie in, rhoncus ut, lobortis a, est.</p>
-							<p class="links"><a href="#">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Comments</a></p>
-						</div>
-					</div>
-					<div style="clear: both;">&nbsp;</div>
-				</div>
-				<!-- end #content -->
-				<div id="sidebar">
-					<ul>
-						<li>
-							<div id="search" >
-								<form method="get" action="#">
-									<div>
-										<input type="text" name="s" id="search-text" value="" />
-										<input type="submit" id="search-submit" value="GO" />
-									</div>
-								</form>
-							</div>
-							<div style="clear: both;">&nbsp;</div>
-						</li>
-						<li>
-							<h2>Aliquam tempus</h2>
-							<p>Mauris vitae nisl nec metus placerat perdiet est. Phasellus dapibus semper consectetuer hendrerit.</p>
-						</li>
-						<li>
-							<h2>Categories</h2>
-							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
-							</ul>
-						</li>
-						<li>
-							<h2>Blogroll</h2>
-							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-							</ul>
-						</li>
-						<li>
-							<h2>Archives</h2>
-							<ul>
-								<li><a href="#">Aliquam libero</a></li>
-								<li><a href="#">Consectetuer adipiscing elit</a></li>
-								<li><a href="#">Metus aliquam pellentesque</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-								<li><a href="#">Proin gravida orci porttitor</a></li>
-								<li><a href="#">Suspendisse iaculis mauris</a></li>
-								<li><a href="#">Urnanet non molestie semper</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<!-- end #sidebar -->
-				<div style="clear: both;">&nbsp;</div>
-			</div>
-		</div>
-	</div>
-	<!-- end #page -->
+<div id="templatemo_footer_wrapper">
+	<div id="templatemo_footer">
+        Copyright © 2048 <a href="#">Your Company Name</a> | 
+        <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by 
+        <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
+        <div class="cleaner"></div>
+    </div>
 </div>
-<div id="footer">
-	<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
-</div>
-<!-- end #footer -->
+
 </body>
 </html>
